@@ -1,4 +1,4 @@
-Algoritmo "condição mais correta"
+Algoritmo "condiÃ§Ã£o mais correta"
 
 Var
 valor:real
@@ -7,7 +7,7 @@ valor:real
 Inicio
       escreval("digite um numero")
       leia(valor)
-      escreval(------------)
+      escreval("------------")
 
 limpatela
 
@@ -16,7 +16,7 @@ limpatela
          fimse
 
          se(valor<10)entao
-         escreva(valor, " valor é menor que 10")
+         escreva(valor, " valor Ã© menor que 10")
          fimse
 
          se(valor=10) entao
