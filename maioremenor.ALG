@@ -7,49 +7,51 @@ numero1, numero2, numero3:inteiro
 
 Inicio
 
-escreval("Digite um número:")
+//Pergunta ao usuÃ¡rio
+
+escreval("Digite um nÃºmero:")
 leia(numero1)
 
-escreval("Digite outro número:")
+escreval("Digite outro nÃºmero:")
 leia(numero2)
 
-escreval("Digite mais um número:")
+escreval("Digite mais um nÃºmero:")
 leia(numero3)
 
 limpatela
 
-//maior número
+//maior nÃºmero
 
 se (numero1 > numero2) e (numero1 > numero3) entao
-escreval("O maior número é:", numero1)
+escreval("O maior nÃºmero Ã©:", numero1)
 fimse
 
 se (numero2 > numero1) e (numero2 > numero3) entao
-escreval("O maior número é:", numero2)
+escreval("O maior nÃºmero Ã©:", numero2)
 fimse
 
 se (numero3 > numero1) e (numero3 > numero2) entao
-escreval("O maior número é:", numero3)
+escreval("O maior nÃºmero Ã©:", numero3)
 fimse
 
-//menor número
+//menor nÃºmero
 
  se (numero1 < numero2) e (numero1 < numero3) entao
-escreval("O  menor número é:", numero1)
+escreval("O  menor nÃºmero Ã©:", numero1)
 fimse
 
 se (numero2 <  numero1) e (numero2 < numero3) entao
-escreval("O menor número é:", numero2)
+escreval("O menor nÃºmero Ã©:", numero2)
 fimse
 
 se (numero3 < numero1) e (numero3 < numero2) entao
-escreval("O menor número é:", numero3)
+escreval("O menor nÃºmero Ã©:", numero3)
 fimse
 
-//Mostre todos os números:
+//Mostre todos os nÃºmeros:
 
-escreval("O número 1 é:", numero1)
-escreval("O número 2 é:", numero2)
-escreval("O número 3 é:", numero3)
+escreval("O nÃºmero 1 Ã©:", numero1)
+escreval("O nÃºmero 2 Ã©:", numero2)
+escreval("O nÃºmero 3 Ã©:", numero3)
 
 Fimalgoritmo
